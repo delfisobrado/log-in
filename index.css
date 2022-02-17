@@ -12,9 +12,19 @@ position: relative;
 background-image: url('https://cdn141.picsart.com/309256231011211.png?type=webp&to=min&r=640');
 background-repeat: no-repeat;
 background-position: right;
-background-size: contain;}
+background-size: contain;
+box-shadow: 10px 9px 24px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 24px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 24px 1px rgba(0,0,0,0.75);}
 
-
+.img { 
+    width: 50%;
+    background-image: url('https://cdn141.picsart.com/309256231011211.png?type=webp&to=min&r=640');
+background-repeat: no-repeat;
+background-position: right;
+background-size: cover;
+border-radius: 20px;
+}
 
 
 form { display:flex;
@@ -44,6 +54,7 @@ color: white;;
 #Nombre, #Password { border-radius: 25px;
 color: #ffffff;
 border: 1px solid #202157;
-height: 45px;
+height: 30px;
 width: 100%;
 cursor: pointer;}
+
